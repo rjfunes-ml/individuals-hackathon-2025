@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon Individuals 2025</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">🚀 Hackathon Individuals 2025</h1>
+                <div class="language-toggle">
+                    <button class="lang-btn active" data-lang="es">ES</button>
+                    <button class="lang-btn" data-lang="pt">PT</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#overview" data-es="Resumen" data-pt="Visão Geral">Resumen</a></li>
+                <li><a href="#objectives" data-es="Objetivos" data-pt="Objetivos">Objetivos</a></li>
+                <li><a href="#criteria" data-es="Criterios" data-pt="Critérios">Criterios</a></li>
+                <li><a href="#jury" data-es="Jurado" data-pt="Júri">Jurado</a></li>
+                <li><a href="#topics" data-es="Temas" data-pt="Tópicos">Temas</a></li>
+                <li><a href="#teams" data-es="Equipos" data-pt="Equipes">Equipos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Overview Section -->
+        <section id="overview" class="section overview-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-es="Resumen del Hackathon" data-pt="Visão Geral do Hackathon">Resumen del Hackathon</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="overview-content">
+                    <div class="overview-text">
+                        <div class="timeline">
+                            <div class="timeline-item" data-es="
+                                <div class='timeline-icon'>🚀</div>
+                                <div class='timeline-content'>
+                                    <h4>Kickoff</h4>
+                                    <span class='timeline-date'>19/08</span>
+                                    <p>Presentación del evento y formación de equipos</p>
+                                </div>
+                            " data-pt="
+                                <div class='timeline-icon'>🚀</div>
+                                <div class='timeline-content'>
+                                    <h4>Kickoff</h4>
+                                    <span class='timeline-date'>19/08</span>
+                                    <p>Apresentação do evento e formação de equipes</p>
+                                </div>
+                            ">
+                                <div class="timeline-icon">🚀</div>
+                                <div class="timeline-content">
+                                    <h4>Kickoff</h4>
+                                    <span class="timeline-date">19/08</span>
+                                    <p>Presentación del evento y formación de equipos</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-es="
+                                <div class='timeline-icon'>💬</div>
+                                <div class='timeline-content'>
+                                    <h4>Preparación</h4>
+                                    <span class='timeline-date'>19/08-21/08</span>
+                                    <p>Coordinar con el equipo, solicitar permisos de herramientas</p>
+                                </div>
+                            " data-pt="
+                                <div class='timeline-icon'>💬</div>
+                                <div class='timeline-content'>
+                                    <h4>Preparação</h4>
+                                    <span class='timeline-date'>19/08-21/08</span>
+                                    <p>Coordenar com a equipe, solicitar permissões de ferramentas</p>
+                                </div>
+                            ">
+                                <div class="timeline-icon">💬</div>
+                                <div class="timeline-content">
+                                    <h4>Preparación</h4>
+                                    <span class="timeline-date">19/08-21/08</span>
+                                    <p>Coordinar con el equipo, solicitar permisos de herramientas</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-es="
+                                <div class='timeline-icon'>⚡</div>
+                                <div class='timeline-content'>
+                                    <h4>Hackathon</h4>
+                                    <span class='timeline-date'>21/08-22/08</span>
+                                    <p>48 horas de desarrollo intensivo</p>
+                                </div>
+                            " data-pt="
+                                <div class='timeline-icon'>⚡</div>
+                                <div class='timeline-content'>
+                                    <h4>Hackathon</h4>
+                                    <span class='timeline-date'>21/08-22/08</span>
+                                    <p>48 horas de desenvolvimento intensivo</p>
+                                </div>
+                            ">
+                                <div class="timeline-icon">⚡</div>
+                                <div class="timeline-content">
+                                    <h4>Hackathon</h4>
+                                    <span class="timeline-date">21/08-22/08</span>
+                                    <p>48 horas de desarrollo intensivo</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-es="
+                                <div class='timeline-icon'>🏆</div>
+                                <div class='timeline-content'>
+                                    <h4>Evaluación</h4>
+                                    <span class='timeline-date'>22/08-25/08</span>
+                                    <p>El jurado evaluará las ideas</p>
+                                </div>
+                            " data-pt="
+                                <div class='timeline-icon'>🏆</div>
+                                <div class='timeline-content'>
+                                    <h4>Avaliação</h4>
+                                    <span class='timeline-date'>22/08-25/08</span>
+                                    <p>O júri avaliará as ideias</p>
+                                </div>
+                            ">
+                                <div class="timeline-icon">🏆</div>
+                                <div class="timeline-content">
+                                    <h4>Evaluación</h4>
+                                    <span class="timeline-date">22/08-25/08</span>
+                                    <p>El jurado evaluará las ideas</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-es="
+                                <div class='timeline-icon'>🎉</div>
+                                <div class='timeline-content'>
+                                    <h4>Resultados</h4>
+                                    <span class='timeline-date'>25/08</span>
+                                    <p>Anuncio de ganadores</p>
+                                </div>
+                            " data-pt="
+                                <div class='timeline-icon'>🎉</div>
+                                <div class='timeline-content'>
+                                    <h4>Resultados</h4>
+                                    <span class='timeline-date'>25/08</span>
+                                    <p>Anúncio dos vencedores</p>
+                                </div>
+                            ">
+                                <div class="timeline-icon">🎉</div>
+                                <div class="timeline-content">
+                                    <h4>Resultados</h4>
+                                    <span class="timeline-date">25/08</span>
+                                    <p>Anuncio de ganadores</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Objectives Section -->
+        <section id="objectives" class="section objectives-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-es="Objetivos del Hackathon" data-pt="Objetivos do Hackathon">Objetivos del Hackathon</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="objectives-grid">
+                    <div class="objective-card">
+                        <div class="objective-icon">🤖</div>
+                        <h3 data-es="Implementar Herramientas de IA" data-pt="Implementar Ferramentas de IA">Implementar Herramientas de IA</h3>
+                        <p data-es="Desarrollar soluciones basadas en inteligencia artificial que mejoren significativamente la productividad del equipo de científicos e ingenieros de datos." 
+                           data-pt="Desenvolver soluções baseadas em inteligência artificial que melhorem significativamente a produtividade da equipe de cientistas e engenheiros de dados.">
+                           Desarrollar soluciones basadas en inteligencia artificial que mejoren significativamente la productividad del equipo de científicos e ingenieros de datos.
+                        </p>
+                    </div>
+                    <div class="objective-card">
+                        <div class="objective-icon">⚡</div>
+                        <h3 data-es="Optimizar Flujos de Trabajo" data-pt="Otimizar Fluxos de Trabalho">Optimizar Flujos de Trabajo</h3>
+                        <p data-es="Automatizar tareas repetitivas y procesos manuales para permitir que el equipo se enfoque en actividades de mayor valor agregado." 
+                           data-pt="Automatizar tarefas repetitivas e processos manuais para permitir que a equipe se concentre em atividades de maior valor agregado.">
+                           Automatizar tareas repetitivas y procesos manuales para permitir que el equipo se enfoque en actividades de mayor valor agregado.
+                        </p>
+                    </div>
+                    <div class="objective-card">
+                        <div class="objective-icon">🎯</div>
+                        <h3 data-es="Mejorar la Toma de Decisiones" data-pt="Melhorar a Tomada de Decisões">Mejorar la Toma de Decisiones</h3>
+                        <p data-es="Crear herramientas inteligentes que proporcionen insights accionables y faciliten la toma de decisiones basada en datos." 
+                           data-pt="Criar ferramentas inteligentes que forneçam insights acionáveis e facilitem a tomada de decisões baseada em dados.">
+                           Crear herramientas inteligentes que proporcionen insights accionables y faciliten la toma de decisiones basada en datos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Evaluation Criteria Section -->
+        <section id="criteria" class="section criteria-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-es="Criterios de Evaluación" data-pt="Critérios de Avaliação">Criterios de Evaluación</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="criteria-content">
+                    <div class="criteria-description">
+                        <p data-es="Los proyectos serán evaluados según los siguientes criterios. Cada criterio será puntuado del 1 al 10." 
+                           data-pt="Os projetos serão avaliados de acordo com os seguintes critérios. Cada critério será pontuado de 1 a 10.">
+                           Los proyectos serán evaluados según los siguientes criterios. Cada criterio será puntuado del 1 al 10.
+                        </p>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="criteriaChart" width="400" height="400"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Jury Section -->
+        <section id="jury" class="section jury-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-es="Jurado Misterioso" data-pt="Júri Misterioso">Jurado Misterioso</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="jury-content">
+                    <p data-es="Nuestro prestigioso jurado evaluará las propuestas con los más altos estándares de innovación y excelencia técnica." 
+                       data-pt="Nosso prestigioso júri avaliará as propostas com os mais altos padrões de inovação e excelência técnica.">
+                       Nuestro prestigioso jurado evaluará las propuestas con los más altos estándares de innovación y excelencia técnica.
+                    </p>
+                    <div class="jury-grid">
+                        <div class="jury-card">
+                            <div class="jury-avatar">🎭</div>
+                            <h3 data-es="Jurado #1" data-pt="Jurado #1">Jurado #1</h3>
+                            <p data-es="Especialista en IA y Machine Learning" data-pt="Especialista em IA e Machine Learning">Especialista en IA y Machine Learning</p>
+                            <div class="mystery-badge" data-es="¿Quién será?" data-pt="Quem será?">¿Quién será?</div>
+                        </div>
+                        <div class="jury-card">
+                            <div class="jury-avatar">🎭</div>
+                            <h3 data-es="Jurado #2" data-pt="Jurado #2">Jurado #2</h3>
+                            <p data-es="Experto en Data Science y Analytics" data-pt="Especialista em Data Science e Analytics">Experto en Data Science y Analytics</p>
+                            <div class="mystery-badge" data-es="¿Quién será?" data-pt="Quem será?">¿Quién será?</div>
+                        </div>
+                        <div class="jury-card">
+                            <div class="jury-avatar">🎭</div>
+                            <h3 data-es="Jurado #3" data-pt="Jurado #3">Jurado #3</h3>
+                            <p data-es="Líder en Innovación Tecnológica" data-pt="Líder em Inovação Tecnológica">Líder en Innovación Tecnológica</p>
+                            <div class="mystery-badge" data-es="¿Quién será?" data-pt="Quem será?">¿Quién será?</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recommended Topics Section -->
+        <section id="topics" class="section topics-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-es="Temas Recomendados" data-pt="Tópicos Recomendados">Temas Recomendados</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="topics-grid">
+                    <div class="topic-card">
+                        <div class="topic-icon">⚙️</div>
+                        <h3 data-es="Internal Efficiency" data-pt="Internal Efficiency">Internal Efficiency</h3>
+                        <ul class="topic-examples" data-es="
+                            • Companion de Tracks Enabler<br/>
+                            • Bot de Dashboards para insights y alertas<br/>
+                            • Migraciones de patrones de fraude a otros productos<br/>
+                            • Automatización de análisis repetitivos<br/>
+                            • Generación de documentación técnica<br/>
+                            • Bots de procesamiento de métricas y dashboards
+                        " data-pt="
+                            • Companion de Tracks Enabler<br/>
+                            • Bot de Dashboards para insights e alertas<br/>
+                            • Migrações de padrões de fraude para outros produtos<br/>
+                            • Automatização de análises repetitivas<br/>
+                            • Geração de documentação técnica<br/>
+                            • Bots de processamento de métricas e dashboards
+                        ">
+                            • Companion de Tracks Enabler<br/>
+                            • Bot de Dashboards para insights y alertas<br/>
+                            • Migraciones de patrones de fraude a otros productos<br/>
+                            • Automatización de análisis repetitivos<br/>
+                            • Generación de documentación técnica<br/>
+                            • Bots de procesamiento de métricas y dashboards
+                        </ul>
+                    </div>
+                    <div class="topic-card">
+                        <div class="topic-icon">🧠</div>
+                        <h3 data-es="Customer Intelligence" data-pt="Customer Intelligence">Customer Intelligence</h3>
+                        <ul class="topic-examples" data-es="
+                            • Mejoras en el proceso de alias peligrosos<br/>
+                            • Análisis semántico de feedbacks<br/>
+                            • Clasificación de tickets de soporte<br/>
+                            • Análisis de sentimientos en reviews
+                        " data-pt="
+                            • Melhorias no processo de alias perigosos<br/>
+                            • Análise semântica de feedbacks<br/>
+                            • Classificação de tickets de suporte<br/>
+                            • Análise de sentimentos em reviews
+                        ">
+                            • Mejoras en el proceso de alias peligrosos<br/>
+                            • Análisis semántico de feedbacks<br/>
+                            • Clasificación de tickets de soporte<br/>
+                            • Análisis de sentimientos en reviews
+                        </ul>
+                    </div>
+                    <div class="topic-card">
+                        <div class="topic-icon">🚀</div>
+                        <h3 data-es="Product Innovation" data-pt="Product Innovation">Product Innovation</h3>
+                        <ul class="topic-examples" data-es="
+                            • Productivización de agentes<br/>
+                            • Asistente de Recomendación de reglas<br/>
+                            • Creación de marcas heurísticas<br/>
+                            • Construcción de pipelines para fine tuning o RAG<br/>
+                            • Automatización de rehabilitaciones en flujo Heavy Users
+                        " data-pt="
+                            • Produtivização de agentes<br/>
+                            • Assistente de Recomendação de regras<br/>
+                            • Criação de marcas heurísticas<br/>
+                            • Construção de pipelines para fine tuning ou RAG<br/>
+                            • Automatização de reabilitações em fluxo Heavy Users
+                        ">
+                            • Productivización de agentes<br/>
+                            • Asistente de Recomendación de reglas<br/>
+                            • Creación de marcas heurísticas<br/>
+                            • Construcción de pipelines para fine tuning o RAG<br/>
+                            • Automatización de rehabilitaciones en flujo Heavy Users
+                        </ul>
+                    </div>
+                    <div class="topic-card">
+                        <div class="topic-icon">📊</div>
+                        <h3 data-es="Data Companion Tools" data-pt="Data Companion Tools">Data Companion Tools</h3>
+                        <ul class="topic-examples" data-es="
+                            • Descriptor y buscador de features en catálogos<br/>
+                            • Eficientización de Extracción<br/>
+                            • Recomendador de queries
+                        " data-pt="
+                            • Descriptor e buscador de features em catálogos<br/>
+                            • Eficientização de Extração<br/>
+                            • Recomendador de queries
+                        ">
+                            • Descriptor y buscador de features en catálogos<br/>
+                            • Eficientización de Extracción<br/>
+                            • Recomendador de queries
+                        </ul>
+                    </div>
+                    <div class="topic-card">
+                        <div class="topic-icon">🔧</div>
+                        <h3 data-es="Data Operations" data-pt="Data Operations">Data Operations</h3>
+                        <ul class="topic-examples" data-es="
+                            • Monitoreo del uso de APIs de LLMs y control de costos<br/>
+                            • Validación de calidad de datos que entran a los modelos
+                        " data-pt="
+                            • Monitoramento do uso de APIs de LLMs e controle de custos<br/>
+                            • Validação de qualidade de dados que entram nos modelos
+                        ">
+                            • Monitoreo del uso de APIs de LLMs y control de costos<br/>
+                            • Validación de calidad de datos que entran a los modelos
+                        </ul>
+                    </div>
+                </div>
+                <div class="topics-note">
+                    <p data-es="<strong>Nota:</strong> Estos son ejemplos de temas sugeridos. El hackathon tiene tema abierto, ¡puedes proponer cualquier idea innovadora relacionada con IA y productividad!" 
+                       data-pt="<strong>Nota:</strong> Estes são exemplos de tópicos sugeridos. O hackathon tem tema aberto, você pode propor qualquer ideia inovadora relacionada com IA e produtividade!">
+                       <strong>Nota:</strong> Estos son ejemplos de temas sugeridos. El hackathon tiene tema abierto, ¡puedes proponer cualquier idea innovadora relacionada con IA y productividad!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Teams Section -->
+        <section id="teams" class="section teams-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-es="Equipos Participantes" data-pt="Equipes Participantes">Equipos Participantes</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="teams-grid">
+                    <div class="team-card">
+                        <h3 data-es="Equipo 1" data-pt="Equipe 1">Equipo 1</h3>
+                        <div class="team-members">
+                            <div class="member">
+                                <div class="member-avatar">📊</div>
+                                <div class="member-info">
+                                    <h4>Guillermo Funes</h4>
+                                    <span data-es="Data Analyst" data-pt="Analista de Dados">Data Analyst</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">💻</div>
+                                <div class="member-info">
+                                    <h4>Agustin Pueblas</h4>
+                                    <span data-es="Data Engineer" data-pt="Engenheiro de Dados">Data Engineer</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">💻</div>
+                                <div class="member-info">
+                                    <h4>Gian Velasquez</h4>
+                                    <span data-es="Data Engineer" data-pt="Engenheiro de Dados">Data Engineer</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">🔬</div>
+                                <div class="member-info">
+                                    <h4>Leandro Nardi</h4>
+                                    <span data-es="Data Scientist" data-pt="Cientista de Dados">Data Scientist</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-card">
+                        <h3 data-es="Equipo 2" data-pt="Equipe 2">Equipo 2</h3>
+                        <div class="team-members">
+                            <div class="member">
+                                <div class="member-avatar">📊</div>
+                                <div class="member-info">
+                                    <h4>Braian Rocha</h4>
+                                    <span data-es="Data Analyst" data-pt="Analista de Dados">Data Analyst</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">💻</div>
+                                <div class="member-info">
+                                    <h4>Agustin Nigrelli</h4>
+                                    <span data-es="Data Engineer" data-pt="Engenheiro de Dados">Data Engineer</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">🔬</div>
+                                <div class="member-info">
+                                    <h4>Guillermo Lencina</h4>
+                                    <span data-es="Data Scientist" data-pt="Cientista de Dados">Data Scientist</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">🔬</div>
+                                <div class="member-info">
+                                    <h4>Mercedes Rodriguez</h4>
+                                    <span data-es="Data Scientist" data-pt="Cientista de Dados">Data Scientist</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">🔬</div>
+                                <div class="member-info">
+                                    <h4>Nicolas Kossacoff</h4>
+                                    <span data-es="Data Scientist" data-pt="Cientista de Dados">Data Scientist</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-card">
+                        <h3 data-es="Equipo 3" data-pt="Equipe 3">Equipo 3</h3>
+                        <div class="team-members">
+                            <div class="member">
+                                <div class="member-avatar">📊</div>
+                                <div class="member-info">
+                                    <h4>Hernan Loker</h4>
+                                    <span data-es="Data Analyst" data-pt="Analista de Dados">Data Analyst</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">💻</div>
+                                <div class="member-info">
+                                    <h4>Ignacio Galvan</h4>
+                                    <span data-es="Data Engineer" data-pt="Engenheiro de Dados">Data Engineer</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">🔬</div>
+                                <div class="member-info">
+                                    <h4>Gabriel Wolfmann</h4>
+                                    <span data-es="Data Scientist" data-pt="Cientista de Dados">Data Scientist</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">🔬</div>
+                                <div class="member-info">
+                                    <h4>Leandro Kovalevski</h4>
+                                    <span data-es="Data Scientist" data-pt="Cientista de Dados">Data Scientist</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-card">
+                        <h3 data-es="Equipo 4" data-pt="Equipe 4">Equipo 4</h3>
+                        <div class="team-members">
+                            <div class="member">
+                                <div class="member-avatar">💻</div>
+                                <div class="member-info">
+                                    <h4>Ydaura Cueto</h4>
+                                    <span data-es="Data Engineer" data-pt="Engenheiro de Dados">Data Engineer</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">🔬</div>
+                                <div class="member-info">
+                                    <h4>Daniel Malheiros</h4>
+                                    <span data-es="Data Scientist" data-pt="Cientista de Dados">Data Scientist</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">🔬</div>
+                                <div class="member-info">
+                                    <h4>Marcos Montero</h4>
+                                    <span data-es="Data Scientist" data-pt="Cientista de Dados">Data Scientist</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">🔬</div>
+                                <div class="member-info">
+                                    <h4>Marilia Silveira</h4>
+                                    <span data-es="Data Scientist" data-pt="Cientista de Dados">Data Scientist</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-card">
+                        <h3 data-es="Equipo 5" data-pt="Equipe 5">Equipo 5</h3>
+                        <div class="team-members">
+                            <div class="member">
+                                <div class="member-avatar">📊</div>
+                                <div class="member-info">
+                                    <h4>Agustin Sorcini</h4>
+                                    <span data-es="Data Analyst" data-pt="Analista de Dados">Data Analyst</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">💻</div>
+                                <div class="member-info">
+                                    <h4>Juan Xifro</h4>
+                                    <span data-es="Data Engineer" data-pt="Engenheiro de Dados">Data Engineer</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">💻</div>
+                                <div class="member-info">
+                                    <h4>Nicolas Barbeito</h4>
+                                    <span data-es="Data Engineer" data-pt="Engenheiro de Dados">Data Engineer</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">🔬</div>
+                                <div class="member-info">
+                                    <h4>Matias Wolinsky</h4>
+                                    <span data-es="Data Scientist" data-pt="Cientista de Dados">Data Scientist</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">🔬</div>
+                                <div class="member-info">
+                                    <h4>Rayssa Banti</h4>
+                                    <span data-es="Data Scientist" data-pt="Cientista de Dados">Data Scientist</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-card">
+                        <h3 data-es="Equipo 6" data-pt="Equipe 6">Equipo 6</h3>
+                        <div class="team-members">
+                            <div class="member">
+                                <div class="member-avatar">📊</div>
+                                <div class="member-info">
+                                    <h4>Martina Urchitano</h4>
+                                    <span data-es="Data Analyst" data-pt="Analista de Dados">Data Analyst</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">💻</div>
+                                <div class="member-info">
+                                    <h4>Samuel Bassi</h4>
+                                    <span data-es="Data Engineer" data-pt="Engenheiro de Dados">Data Engineer</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">🔬</div>
+                                <div class="member-info">
+                                    <h4>Facundo Suarez</h4>
+                                    <span data-es="Data Scientist" data-pt="Cientista de Dados">Data Scientist</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">🔬</div>
+                                <div class="member-info">
+                                    <h4>Matilde Cuenca</h4>
+                                    <span data-es="Data Scientist" data-pt="Cientista de Dados">Data Scientist</span>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-avatar">🔬</div>
+                                <div class="member-info">
+                                    <h4>Sebastian Gaitan</h4>
+                                    <span data-es="Data Scientist" data-pt="Cientista de Dados">Data Scientist</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p data-es="© 2025 Hackathon Individuals. Todos los derechos reservados." 
+               data-pt="© 2025 Hackathon Individuals. Todos os direitos reservados.">
+               © 2025 Hackathon Individuals. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
